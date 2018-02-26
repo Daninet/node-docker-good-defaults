@@ -9,3 +9,4 @@ pipeline:
     tags: [ latest ]
     secrets: [ docker_username, docker_password ]
     registry: registry.danibiro.com
+
