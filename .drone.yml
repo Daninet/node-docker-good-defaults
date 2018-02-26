@@ -5,7 +5,7 @@ pipeline:
       - npm install
   publish:
     image: plugins/docker
-    repo: registry.danibiro.com/dani/dani
+    repo: registry.danibiro.com/dani/dani-example-node
     tags: [ latest ]
     secrets: [ docker_username, docker_password ]
     registry: registry.danibiro.com
