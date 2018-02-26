@@ -24,7 +24,7 @@ var app = express();
 app.use(morgan('common'));
 
 app.get('/', function (req, res) {
-  res.send('Hello Docker World3\n');
+  res.send('Hello Docker World4\n');
 });
 
 app.get('/healthz', function (req, res) {
@@ -35,7 +35,7 @@ app.get('/healthz', function (req, res) {
 });
 
 var server = app.listen(PORT, function () {
-  console.log('Webserver is ready3');
+  console.log('Webserver is ready4');
 });
 
 
